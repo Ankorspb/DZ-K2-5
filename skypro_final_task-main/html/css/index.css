@@ -1,35 +1,103 @@
 .logo {
-	 float: left;
+	float: left;
 }
- nav {
-	 float: right;
+.div {
+	animation: hallo 3s infinite alternate;
+position: absolute;
+left: 32%;
+bottom: 30px;
+border-radius: 50px;
+padding: 0px 130px 0px 130px;
 }
- nav {
-	 margin: 10;
-	 padding: 50;
-	 list-style: none;
+@keyframes hallo {
+	0% {
+		background-color: black;
+		color: rgb(255, 255, 255);
+	}
+	100% {
+		background-color: white;
+		color: #008000;
+	}
 }
- nav li {
-	 display: inline-block;
+body {
+	background-image: 
+	linear-gradient(
+		to left, wheat, rgb(228, 194, 194), wheat
+)
 }
- body {
-	 background: #000000;
-	 color: #fff;
-}
- a {
-	 color: #130080
-}
- h1 {
-	 color: #008080
-}
- p {
-	 color: #008000
-}
- ol {
-	 color: #008000
+button {
+	cursor: pointer;
+	background-color: black;
+	color: white;
+	position: relative;
+	bottom: 50px;
+	border-radius: 7px;
+	width: 100px;
+	height: 40px;
 }
 .container {
-	width: 1500px;
-	height: 400px;
-	background-image: linear-gradient(to left, #E2BCBB, #E4514A);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 	}
+img {
+	border-radius: 100%;
+	width: 250px;
+	height: 250px;
+	cursor: crosshair;
+}
+.hallo {
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	top: 40px;
+}
+.utro {
+	margin: 0 0 0 110px;
+	position: relative;
+	top: -30px;
+}
+.tro {
+	margin: 0 0 0 210px;
+	position: relative;
+	top: -30px;
+}
+.ro {
+	margin: 0 0 0 620px;
+	position: relative;
+	bottom: 80px;
+}
+.o {
+	margin: 0 0 0 1150px;
+	position: relative;
+	bottom: 110px;
+}
+.button {
+	cursor: pointer;
+	background-color: black;
+	color: white;
+	position: relative;
+	bottom: 40px;
+}
+.h2 {
+	margin: 0 0 0 190px;
+	position: relative;
+	bottom: 0;
+}
+.h1 {
+	margin: 0 0 0 660px;
+	position: relative;
+	bottom: 30px;
+}
+.h {
+	margin: 0 0 0 1140px;
+	position: relative;
+	bottom: 50px;
+}
+.center {
+	position: relative;
+	top: 100px;
+}
+h1 {
+	color: #130080;
+}
